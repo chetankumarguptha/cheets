@@ -1,0 +1,62 @@
+// $body-color: blue;\
+@import "../styles/materialize/sass/materialize.scss";
+
+
+body,html {
+  // color: $body-color;
+  width:100%;
+  height:100%;
+}
+#page1{
+  width: 100%;
+  height: 100%;
+  // background: url("../media/bgimg.jpg");
+
+}
+// #page2{
+//   width: 100%;
+//   height: 120%;
+
+// }
+@media #{$large-and-up} {
+  .row{
+    .left-side{
+      // background-color: green;
+     .image-left{
+
+     }
+      // margin-top: -8.5em;
+      // margin-left: 9em;
+      
+    }
+    .right-side{
+      // height: -3em;
+      // margin-top: 15em;
+      // margin-left:-51em;
+      // background-color: aqua;
+      // transform: rotate(70deg);
+      
+      // margin-right: -5em;
+      // transform: rotate(90deg);
+      // background-size: cover;
+      // position: absolute;
+      // display: block;
+      .image-right{
+
+      }
+
+    }
+ }
+  .box{
+    // background-color: lightgrey;
+    width: 80em;
+    height: 35em;
+    margin-top: -8em;
+    margin-left: 17em;
+    border: 15px solid green;
+    padding: 50px;
+    // overflow: auto;
+    // margin: 20px;
+  }
+  
+}
